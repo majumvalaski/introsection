@@ -1,3 +1,11 @@
+body {
+    padding: 100px 60px 100px 60px;
+    background-color: hsl(0, 0%, 98%);
+}
+main {
+    background-color: white;
+    padding: 20px 20px 20px 20px;
+}
 header {     
     width: 100%;
     display: flex;
@@ -31,8 +39,8 @@ ul {
 
 .menu_right ul{
     margin-top: 20px;
-    margin-left: 400px;
-    margin-right: 20px;
+    margin-left: 180px;
+    display:flex;
 }
 
 .menu_right li{
@@ -44,6 +52,19 @@ ul {
     float: right;
     padding-left: 60px;
 
+}
+
+.menu_right button {
+    
+    background-color: white;
+    border-radius: 10px;
+    font-size: 18px;
+    font-family: "Montserrat";
+    color: black;
+    font-weight: 300;
+    padding: 10px 20px 10px 20px;
+    margin-top: -10px;
+    margin-right: 20px;
 }
 
 h1 {
@@ -89,8 +110,20 @@ p {
 
 }
 
+.logos ul{
+    display: flex;
+    margin-top: 140px;
+    margin-left: 120px;
+}
+
+.logos li{
+    padding-right: 50px;
+}
+
+
 .attribution { 
-    font-size: 11px; text-align: center; 
+    font-size: 11px; text-align: right; 
+    margin-top: 10px;
 }
 
 .attribution a { 
