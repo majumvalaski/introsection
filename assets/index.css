@@ -67,6 +67,15 @@ ul {
     margin-right: 20px;
 }
 
+.img {
+    display: inline-flex;
+    width: 200px;
+    height: 500px;
+    float:right;
+    margin-right: 180px;
+    margin-top: 20px;
+}
+
 h1 {
     text-align: justify;
     margin-top: 180px;
@@ -109,6 +118,7 @@ p {
     margin-top: 30px;
 
 }
+
 
 .logos ul{
     display: flex;
