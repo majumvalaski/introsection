@@ -73,6 +73,18 @@ p {
     margin-bottom: 5px;
 }
 
+#learn {
+    background-color: black;
+    border-radius: 10px;
+    font-size: 20px;
+    font-family: "Montserrat";
+    color: white;
+    font-weight: 400;
+    padding: 10px 20px 10px 20px;
+    margin-left: 160px;
+    margin-top: 30px;
+
+}
 
 .attribution { 
     font-size: 11px; text-align: center; 
