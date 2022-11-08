@@ -1,6 +1,6 @@
 header {     
     width: 100%;
-
+    display: flex;
 }
 
 #logo {
@@ -13,9 +13,26 @@ ul {
 
 .menu_left ul{
     
-    margin-left: 100px;
-    margin-top: 0px;
+    margin-left: 10px;
+    margin-top: 20px;
     
+}
+
+.menu_left li{
+
+    font-size: 18px;
+    font-family: "Montserrat";
+    color: black;
+    font-weight: 300;
+    float: left;
+    padding-right: 60px;
+
+}
+
+.menu_right ul{
+    margin-top: 20px;
+    margin-left: 400px;
+    margin-right: 20px;
 }
 
 .menu_right li{
@@ -25,21 +42,7 @@ ul {
     color: black;
     font-weight: 300;
     float: right;
-    padding-inline: 20px;
-
-}
-
-.menu_right ul{
-    padding-right: 60px;
-}
-.menu_left li{
-
-    font-size: 18px;
-    font-family: "Montserrat";
-    color: black;
-    font-weight: 300;
-    float: left;
-    padding-inline: 20px;
+    padding-left: 60px;
 
 }
 
