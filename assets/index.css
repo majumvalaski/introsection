@@ -1,3 +1,79 @@
+header {     
+    width: 100%;
+
+}
+
+#logo {
+    padding: 20px 20px 20px 20px;
+}
+
+ul {
+    list-style: none;
+}
+
+.menu_left ul{
+    
+    margin-left: 100px;
+    margin-top: 0px;
+    
+}
+
+.menu_right li{
+
+    font-size: 18px;
+    font-family: "Montserrat";
+    color: black;
+    font-weight: 300;
+    float: right;
+    padding-inline: 20px;
+
+}
+
+.menu_right ul{
+    padding-right: 60px;
+}
+.menu_left li{
+
+    font-size: 18px;
+    font-family: "Montserrat";
+    color: black;
+    font-weight: 300;
+    float: left;
+    padding-inline: 20px;
+
+}
+
+h1 {
+    text-align: justify;
+    margin-top: 180px;
+    font-size: 80px;
+    font-family: "Montserrat";
+    color: black;
+    font-weight: 700;
+    margin-left: 160px;
+
+}
+
+#title {
+    margin-top: -20px;
+}
+
+h2 {
+    text-align: justify;
+    margin-top: 30px;
+    font-size: 25px;
+    font-family: "Montserrat";
+    color: black;
+    font-weight: 300;
+    margin-left: 160px; 
+}
+
+p {
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+
 .attribution { 
     font-size: 11px; text-align: center; 
 }
