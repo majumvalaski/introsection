@@ -23,20 +23,42 @@
 
       <nav class="menu_left">
         <ul>
-          <li>Features</li>
-          <li>Company</li>
+          <li>
+            <nav class="features">
+              <button onclick="myFunction()" class="dropbtn1">Features</button>
+              <nav id="myDropdownF" class="features-content">
+                <a href="#">Todo List</a>
+                <a href="#">Calendar</a>
+                <a href="#">Reminders</a>
+                <a href="#">Planning</a>
+              </nav>
+            </nav>
+          </li>
+
+          <li>
+            <nav class="company">
+              <button onclick="myFunction()" class="dropbtn2">Company</button>
+              <nav id="myDropdownC" class="company-content">
+                <a href="#">History</a>
+                <a href="#">Our Team</a>
+                <a href="#">Blog</a>
+              </nav>
+            </nav>
+
+          </li>
           <li>Careers</li>
-          <li>About</li>
+          <li><button>About</button></li>
         </ul>  
       </nav>
 
       <nav class="menu_right">
        <ul>
           <li>Login</li>
-          <li> <button>Register</button> </li>
+          <li><button>Register</button> </li>
         </ul>
       </nav>
     </header>
+
 
     <section>
       <table border="0" width="100%" cellpadding="20">
