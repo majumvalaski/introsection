@@ -1,6 +1,7 @@
 body {
     padding: 100px 60px 100px 60px;
     background-color: hsl(0, 0%, 98%);
+    width: 1440px;
 }
 main {
     background-color: white;
@@ -72,7 +73,7 @@ ul {
     justify-content: flex-start;
     height: 650px;
     margin-top: 20px;
-    margin-right: 40px;
+    margin-right: 70px;
     margin-left: 0px;
     padding: 0px;
 }
