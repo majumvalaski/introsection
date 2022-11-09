@@ -29,9 +29,9 @@ ul {
 .menu_left li{
 
     font-size: 18px;
-    font-family: "Montserrat";
-    color: black;
-    font-weight: 300;
+    font-family: "Epilogue";
+    color: hsl(0, 0%, 41%);
+    font-weight: 500;
     float: left;
     padding-right: 60px;
 
@@ -46,9 +46,9 @@ ul {
 .menu_right li{
 
     font-size: 18px;
-    font-family: "Montserrat";
-    color: black;
-    font-weight: 300;
+    font-family: "Epilogue";
+    color: hsl(0, 0%, 41%);
+    font-weight: 500;
     float: right;
     padding-left: 60px;
 
@@ -59,9 +59,9 @@ ul {
     background-color: white;
     border-radius: 10px;
     font-size: 18px;
-    font-family: "Montserrat";
-    color: black;
-    font-weight: 300;
+    font-family: "Epilogue";
+    color: hsl(0, 0%, 41%);
+    font-weight: 500;
     padding: 10px 20px 10px 20px;
     margin-top: -10px;
     margin-right: 20px;
@@ -69,36 +69,41 @@ ul {
 
 .img {
     display: inline-flex;
-    width: 200px;
-    height: 500px;
-    float:right;
-    margin-right: 180px;
+    justify-content: flex-start;
+    height: 650px;
     margin-top: 20px;
+    margin-right: 40px;
+    margin-left: 0px;
+    padding: 0px;
+}
+
+.text{
+    padding-left: 140px;
 }
 
 h1 {
     text-align: justify;
-    margin-top: 180px;
-    font-size: 80px;
-    font-family: "Montserrat";
-    color: black;
+    margin-top: 140px;
+    font-size: 70px;
+    font-family: "Epilogue";
+    color: hsl(0, 0%, 8%);
     font-weight: 700;
-    margin-left: 160px;
+    
 
 }
 
 #title {
-    margin-top: -20px;
-}
+    margin-top: 10px;
+} 
 
-h2 {
+h2 { 
     text-align: justify;
     margin-top: 30px;
-    font-size: 25px;
-    font-family: "Montserrat";
-    color: black;
-    font-weight: 300;
-    margin-left: 160px; 
+    font-size: 22px;
+    font-family: "Epilogue";
+    color: hsl(0, 0%, 41%);
+    font-weight: 500;
+    
 }
 
 p {
@@ -110,25 +115,25 @@ p {
     background-color: black;
     border-radius: 10px;
     font-size: 20px;
-    font-family: "Montserrat";
+    font-family: "Epilogue";
     color: white;
-    font-weight: 400;
+    font-weight: 500;
     padding: 10px 20px 10px 20px;
-    margin-left: 160px;
-    margin-top: 30px;
+    margin-top: 50px;
 
 }
 
 
 .logos ul{
-    display: flex;
+    display:inline-flex;
     margin-top: 140px;
-    margin-left: 120px;
+    padding-left: 0px;
+    
 }
 
 .logos li{
     padding-right: 50px;
-}
+} 
 
 
 .attribution { 
