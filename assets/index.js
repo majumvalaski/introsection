@@ -18,13 +18,11 @@ function myFunction1() {
       }
     }
   }
-
+// Company button
   function myFunction2() {
     document.getElementById("myDropdownC").classList.toggle("showC");
   }
   
-  // Close the dropdown menu if the user clicks outside of it
-  // Features button
   window.onclick = function(event) {
     if (!event.target.matches('.dropbtn2')) {
       var company = document.getElementsByClassName("company-content");
