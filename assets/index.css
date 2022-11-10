@@ -38,6 +38,22 @@ ul {
 
 }
 
+.about {
+    background-color: white;
+    color: hsl(0, 0%, 41%);
+    padding: 0px;
+    font-size: 18px;
+    font-family: "Epilogue";
+    font-weight: 500;
+    border: none;
+    cursor: pointer; 
+}
+
+.active, .about:hover {
+    background-color: white;
+    color:black;
+}
+
 .menu_right ul{
     margin-top: 20px;
     margin-left: 180px;
