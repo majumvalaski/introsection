@@ -1,12 +1,9 @@
 body {
-    padding: 100px 60px 100px 60px;
+    padding: 0;
     background-color: hsl(0, 0%, 98%);
     width: 1440px;
 }
-main {
-    background-color: white;
-    padding: 20px 20px 20px 20px;
-}
+
 header {     
     width: 100%;
     display: flex;
@@ -39,7 +36,7 @@ ul {
 }
 
 .about {
-    background-color: white;
+    background-color: hsl(0, 0%, 98%);
     color: hsl(0, 0%, 41%);
     padding: 0px;
     font-size: 18px;
@@ -50,7 +47,7 @@ ul {
 }
 
 .active, .about:hover {
-    background-color: white;
+    background-color: hsl(0, 0%, 98%);
     color:black;
 }
 
@@ -72,7 +69,7 @@ ul {
 
 }
 .login {
-    background-color: white;
+    background-color: hsl(0, 0%, 98%);
     border:none;
     font-size: 18px;
     font-family: "Epilogue";
@@ -81,13 +78,13 @@ ul {
 }
 
 .active, .login:hover {
-    background-color: white;
+    background-color: hsl(0, 0%, 98%);
     color: black;
 }
 
 .register { /*register button*/
     
-    background-color: white;
+    background-color: hsl(0, 0%, 98%);
     border-radius: 10px;
     font-size: 18px;
     font-family: "Epilogue";
@@ -99,12 +96,12 @@ ul {
 }
 
 .active, .register:hover {
-    background-color: white;
+    background-color: hsl(0, 0%, 98%);
     color: black;
 }
 /* Dropdown Button Features*/
 .dropbtn1 {
-    background-color: white;
+    background-color: hsl(0, 0%, 98%);
     color: hsl(0, 0%, 41%);
     padding: 0px;
     font-size: 18px;
@@ -115,7 +112,7 @@ ul {
 }
 /* Dropdown button on hover & focus */
 .dropbtn1:hover, .dropbtn1:focus {
-    background-color: white;
+    background-color: hsl(0, 0%, 98%);
     color: black;
 }
 /* .dropbtn1::after {
@@ -132,7 +129,7 @@ ul {
 .features-content {
     display: none;
     position: absolute;
-    background-color: #f1f1f1;
+    background-color: white;
     min-width: 160px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     z-index: 1;
@@ -161,7 +158,7 @@ ul {
 
 /* Dropdown Button Company*/
 .dropbtn2 {
-    background-color: white;
+    background-color: hsl(0, 0%, 98%);
     color: hsl(0, 0%, 41%);
     padding: 0px;
     font-size: 18px;
@@ -172,7 +169,7 @@ ul {
 }
 /* Dropdown button on hover & focus */
 .dropbtn2:hover, .dropbtn2:focus {
-    background-color: white;
+    background-color: hsl(0, 0%, 98%);
     color: black;
 }
   
@@ -186,7 +183,7 @@ ul {
 .company-content {
     display: none;
     position: absolute;
-    background-color: #f1f1f1;
+    background-color:white;
     min-width: 160px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     z-index: 1;
@@ -262,7 +259,7 @@ p {
     border-radius: 10px;
     font-size: 20px;
     font-family: "Epilogue";
-    color: white;
+    color: hsl(0, 0%, 98%);
     font-weight: 500;
     padding: 15px 20px 15px 20px;
     margin-top: 50px;
@@ -270,7 +267,7 @@ p {
 }
 
 .active, .learn:hover {
-    background-color: white;
+    background-color: hsl(0, 0%, 98%);
     color: black;
 }
 
