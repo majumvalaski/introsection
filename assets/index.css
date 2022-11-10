@@ -71,8 +71,21 @@ ul {
     padding-left: 60px;
 
 }
+.login {
+    background-color: white;
+    border:none;
+    font-size: 18px;
+    font-family: "Epilogue";
+    color: hsl(0, 0%, 41%);
+    font-weight: 500;
+}
 
-.menu_right button {
+.active, .login:hover {
+    background-color: white;
+    color: black;
+}
+
+.register { /*register button*/
     
     background-color: white;
     border-radius: 10px;
@@ -83,6 +96,11 @@ ul {
     padding: 10px 20px 10px 20px;
     margin-top: -10px;
     margin-right: 0px;
+}
+
+.active, .register:hover {
+    background-color: white;
+    color: black;
 }
 /* Dropdown Button Features*/
 .dropbtn1 {
@@ -97,7 +115,8 @@ ul {
 }
 /* Dropdown button on hover & focus */
 .dropbtn1:hover, .dropbtn1:focus {
-    background-color: #2980B9;
+    background-color: white;
+    color: black;
 }
 /* .dropbtn1::after {
     content:; ---- dont know how to do call the icon
@@ -153,7 +172,8 @@ ul {
 }
 /* Dropdown button on hover & focus */
 .dropbtn2:hover, .dropbtn2:focus {
-    background-color: #2980B9;
+    background-color: white;
+    color: black;
 }
   
 /* The container <div> - needed to position the dropdown content */
@@ -237,16 +257,21 @@ p {
     margin-bottom: 5px;
 }
 
-#learn {
+.learn {
     background-color: black;
     border-radius: 10px;
     font-size: 20px;
     font-family: "Epilogue";
     color: white;
     font-weight: 500;
-    padding: 10px 20px 10px 20px;
+    padding: 15px 20px 15px 20px;
     margin-top: 50px;
 
+}
+
+.active, .learn:hover {
+    background-color: white;
+    color: black;
 }
 
 
