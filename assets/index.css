@@ -145,6 +145,26 @@ ul {
     text-decoration: none;
     display: block;
 }
+
+.Todo::before {
+    content: url(./images/icon-todo.svg);
+    padding-right: 10px;
+}
+
+.Calendar::before {
+    content: url(./images/icon-calendar.svg);
+    padding-right: 10px;
+}
+
+.Reminders::before {
+    content: url(./images/icon-reminders.svg);
+    padding-right: 10px;
+}
+
+.Planning::before {
+    content: url(./images/icon-planning.svg);
+    padding-right: 10px;
+}
   
 /* Change color of dropdown links on hover */
 .features-content a:hover {
