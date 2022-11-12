@@ -1,4 +1,6 @@
 # Intro Section with dropdown menu
+![Screen Shot 2022-11-11 at 21 08 09](https://user-images.githubusercontent.com/115854249/201446388-bd7f48d3-0786-421b-9cdd-72a05e465575.png)
+![Screen Shot 2022-11-11 at 21 07 41](https://user-images.githubusercontent.com/115854249/201446402-ea49c114-c80b-4a23-8b81-6a1de0c89b23.png)
 
 
 ## Welcome! 👋
